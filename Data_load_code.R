@@ -2,6 +2,13 @@ library(tidyverse)
 library(haven)
 
 
+Household_Roster <-read_dta("sec1.dta")
+Employment_history <-read_dta("sec4h.dta")
+
+
+
+
+
 #Land Plot details 
 #Rope = 1 | Pole = 2 | Chain = 3  | Acre = 4 | Other = 5
 #Acre = 4,840 square yards or 43,560 square feet
@@ -54,3 +61,4 @@ Job1_inc <-read_dta("inc2.dta")
 
 
 #Profit per acre - expense
+
